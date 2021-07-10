@@ -1,0 +1,33 @@
+{
+  "name": "find_your_hat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander-C-Rogers/Find_Your_Hat.git"
+  },
+  "author": "Alexander-C-Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexander-C-Rogers/Find_Your_Hat/issues"
+  },
+  "homepage": "https://github.com/Alexander-C-Rogers/Find_Your_Hat#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "sequelize-cli": "^6.2.0"
+  }
+}
