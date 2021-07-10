@@ -127,5 +127,20 @@ class Field {
 
         return gameReadyField;
     }
-
 }
+
+//Generating a new randomized field into "newField" and will insert to "myField" below:
+//generateField() takes 3 parameters. First is the y-axis, second is x-axis and third id the percentage of holes in the field(Please enter between 0 - 100).
+
+const myField = new Field(Field.generateField(10,10,30));
+
+function game() {
+    while(currentlyPlaying) {
+        console.log(myField.print());
+        myField.ask();
+        myField.checkWin();
+    }
+    console.log('Game Over!');
+}
+
+game();
